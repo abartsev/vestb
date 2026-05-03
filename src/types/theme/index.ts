@@ -4,7 +4,7 @@ export interface ThemeColors {
   primary: string;
   success: string;
   danger: string;
-  background: string;
+  backgroundDark: string;
   surface: string;
   border: string;
   text: string;
@@ -12,4 +12,5 @@ export interface ThemeColors {
   textLight: string;
   icon: string;
   placeholder: string;
+  card: string;
 }

@@ -6,7 +6,7 @@ export const getStyles = (colors: ThemeColors) =>
   StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: colors.background,
+      backgroundColor: colors.backgroundDark,
     },
     header: {
       fontSize: 28,

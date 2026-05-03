@@ -38,7 +38,7 @@ export const ProfileScreen: React.FC = () => {
             value={theme === 'dark'}
             onValueChange={toggleTheme}
             trackColor={{ false: colors.border, true: colors.primary }}
-            thumbColor={colors.background}
+            thumbColor={colors.backgroundDark}
           />
         </View>
 

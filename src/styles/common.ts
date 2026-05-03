@@ -41,11 +41,11 @@ export const getLayout = (colors: ThemeColors) =>
   StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: colors.background,
+      backgroundColor: colors.backgroundDark,
     },
     safeArea: {
       flex: 1,
-      backgroundColor: colors.background,
+      backgroundColor: colors.backgroundDark,
     },
     row: {
       flexDirection: 'row',
