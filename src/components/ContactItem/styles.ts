@@ -8,7 +8,7 @@ export const getStyles = (colors: ThemeColors) =>
       alignItems: 'center',
       paddingHorizontal: 16,
       paddingVertical: 12,
-      backgroundColor: colors.background,
+      backgroundColor: colors.backgroundDark,
       borderBottomWidth: 1,
       borderBottomColor: colors.border,
     },
